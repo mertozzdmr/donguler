@@ -1,19 +1,19 @@
 <?php
-$sehirler= array ("balıkesir","kütahya","bursa","yalova","rize");
+$sehirler= array ("kayseri","kütahya","bursa","kocaeli","angara");
 $sehirler=["balıkesir","kütahya","bursa","yalova","rize"];
 $soneleman=count($sehirler)-1;
 echo $sehirler[$soneleman];
 ?>
 
 <?php
-$sehirler= array("balıkesir","kütahya","bursa","yalova","rize");
+$sehirler= array("kayseri","kütahya","bursa","kocaeli","angara");
 foreach($sehirler as $sehir) {
 echo $sehir . "<br>";
 }
 ?>
 
 <?php
-$sehirler=array("balıkesir","kütahya","bursa","yalova","rize");
+$sehirler=array("kayseri","kütahya","bursa","kocaeli","angara");
 $sehir=0;
 while(@$sehirler[$sehir]){
    echo $sehirler[$sehir]," ";
