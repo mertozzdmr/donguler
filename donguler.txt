@@ -1,6 +1,6 @@
 <?php
 $sehirler= array ("kayseri","kütahya","bursa","kocaeli","angara");
-$sehirler=["balıkesir","kütahya","bursa","yalova","rize"];
+$sehirler=["kayseri","kütahya","bursa","kocaeli","angara"];
 $soneleman=count($sehirler)-1;
 echo $sehirler[$soneleman];
 ?>
